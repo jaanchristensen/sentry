@@ -1865,13 +1865,14 @@
     "@sentry/utils" "5.16.0-beta.5"
     tslib "^1.9.3"
 
-"@sentry/integrations@5.16.0-beta.5":
-  version "5.16.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-5.16.0-beta.5.tgz#4c55d81ec0e145625b974cfc9b37974103bd3550"
-  integrity sha512-MR6pWG9WJqytn4ZA+Y84rV7gA9pNucGrh2LzaJyHCnpVVPQFgmjw8dn7v2YGqdywCQQV49YZXW9H2+cB/q57Vw==
+"@sentry/integrations@5.25.0":
+  version "5.25.0"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-5.25.0.tgz#b4ee71dbb82d6a3784ba0d93d696f681dfca0049"
+  integrity sha512-ZN2rKQBLWXEAVO3VGOygSh7wnohNj8k45PJZRCLLZoQKz1ldg83RAun+pmmHvEdyuCExw0iivCkU+80DfUeBxA==
   dependencies:
-    "@sentry/types" "5.16.0-beta.5"
-    "@sentry/utils" "5.16.0-beta.5"
+    "@sentry/types" "5.25.0"
+    "@sentry/utils" "5.25.0"
+    localforage "1.8.1"
     tslib "^1.9.3"
 
 "@sentry/minimal@5.16.0-beta.5":
@@ -1913,12 +1914,25 @@
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-5.16.0-beta.5.tgz#1735cd2a24a9259b301eb2f115c5db4422a948b0"
   integrity sha512-/ARDVbBJIGCQywmzpX1x/EhSu3fJtyaaOE/ZGFAgHk4oTQKmw36ZgwksKYCsaEv5A0b7c+99/RwzWht1+SNh7Q==
 
+"@sentry/types@5.25.0":
+  version "5.25.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-5.25.0.tgz#3bcf95e118d655d3f4e8bfa5f0be2e1fe4ea5307"
+  integrity sha512-8M4PREbcar+15wrtEqcwfcU33SS+2wBSIOd/NrJPXJPTYxi49VypCN1mZBDyWkaK+I+AuQwI3XlRPCfsId3D1A==
+
 "@sentry/utils@5.16.0-beta.5":
   version "5.16.0-beta.5"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-5.16.0-beta.5.tgz#36c96c93a0ccef33f1a039320a8ddc58d3d416a9"
   integrity sha512-c93f04s2YE4yTWrfgQlFv/V8UQzJuf4ZvpJDssRhbuz1CiRNzPvCQsvEwuKJW2jgCaDjPD9r8KVws4FkGOKmcA==
   dependencies:
     "@sentry/types" "5.16.0-beta.5"
+    tslib "^1.9.3"
+
+"@sentry/utils@5.25.0":
+  version "5.25.0"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-5.25.0.tgz#b132034be66d7381d30879d2a9e09216fed28342"
+  integrity sha512-Hz5spdIkMSRH5NR1YFOp5qbsY5Ud2lKhEQWlqxcVThMG5YNUc10aYv5ijL19v0YkrC2rqPjCRm7GrVtzOc7bXQ==
+  dependencies:
+    "@sentry/types" "5.25.0"
     tslib "^1.9.3"
 
 "@storybook/addon-a11y@^5.3.3":
@@ -8337,6 +8351,11 @@ image-size@^0.5.1, image-size@~0.5.0:
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
   integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
+immediate@~3.0.5:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
+  integrity sha1-nbHb0Pr43m++D13V5Wu2BigN5ps=
+
 immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
@@ -9854,6 +9873,13 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+lie@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/lie/-/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
+  integrity sha1-mkNrLMd0bKWd56QfpGmz77dr2H4=
+  dependencies:
+    immediate "~3.0.5"
+
 line-height@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/line-height/-/line-height-0.3.1.tgz#4b1205edde182872a5efa3c8f620b3187a9c54c9"
@@ -9933,6 +9959,13 @@ loader-utils@^1.4.0:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^1.0.1"
+
+localforage@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.8.1.tgz#f6c0a24b41ab33b10e4dc84342dd696f6f3e3433"
+  integrity sha512-azSSJJfc7h4bVpi0PGi+SmLQKJl2/8NErI+LhJsrORNikMZnhaQ7rv9fHj+ofwgSHrKRlsDCL/639a6nECIKuQ==
+  dependencies:
+    lie "3.1.1"
 
 locate-path@^2.0.0:
   version "2.0.0"
