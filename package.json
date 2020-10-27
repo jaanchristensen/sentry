@@ -21,7 +21,7 @@
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "@sentry/apm": "5.16.0-beta.5",
-    "@sentry/browser": "5.16.0-beta.5",
+    "@sentry/browser": "5.25.0",
     "@sentry/integrations": "5.16.0-beta.5",
     "@sentry/release-parser": "^0.6.0",
     "@sentry/rrweb": "^0.1.1",
