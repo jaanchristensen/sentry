@@ -32,7 +32,7 @@
     "@types/create-react-class": "^15.6.2",
     "@types/dompurify": "^2.0.1",
     "@types/echarts": "^4.4.3",
-    "@types/jest": "^24.0.17",
+    "@types/jest": "^25.1.0",
     "@types/jquery": "^2.0.53",
     "@types/js-cookie": "^2.2.2",
     "@types/lodash": "^4.14.134",
@@ -125,7 +125,7 @@
     "typescript": "^3.8",
     "u2f-api": "1.0.10",
     "webpack": "4.42.1",
-    "webpack-cli": "3.3.11",
+    "webpack-cli": "4.0.0",
     "webpack-fix-style-only-entries": "^0.2.0",
     "zxcvbn": "^4.4.2"
   },
