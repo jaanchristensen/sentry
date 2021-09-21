@@ -65,7 +65,7 @@
     "css-loader": "^2.0.1",
     "diff": "^3.5.0",
     "dompurify": "^2.0.7",
-    "echarts": "4.7.0",
+    "echarts": "5.2.1",
     "echarts-for-react": "2.0.14",
     "emotion": "10.0.27",
     "emotion-theming": "10.0.27",
