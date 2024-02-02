@@ -1,7 +1,7 @@
 beautifulsoup4>=4.7.1,<4.8
 boto3>=1.4.1,<1.4.6
 botocore<1.5.71
-celery>=3.1.8,<3.1.19
+celery>=4.4.0rc5,<3.1.19
 click>=5.0,<7.0
 confluent-kafka==0.11.5
 croniter>=0.3.26,<0.4.0
@@ -33,7 +33,7 @@ msgpack>=0.6.1,<0.7.0
 parsimonious==0.8.0
 petname>=2.6,<2.7
 phonenumberslite>=8.11.0,<8.12.0
-Pillow>=6.2.2,<7.0.0
+Pillow>=10.2.0,<7.0.0
 progressbar2>=3.32,<3.33
 psycopg2-binary>=2.7.0,<2.9.0
 PyJWT>=1.5.0,<1.6.0
