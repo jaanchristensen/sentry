@@ -83,3 +83,6 @@ phabricator>=0.6.0,<1.0
 mock==3.0.5 ; python_version < "3.3"
 percy>=1.1.2
 selenium==3.141.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.53.2 # not directly required, pinned by Snyk to avoid a vulnerability
